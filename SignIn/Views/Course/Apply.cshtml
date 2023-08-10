@@ -1,0 +1,58 @@
+@model Candidate
+
+<div class="display-6">
+    Apply
+</div>
+<form method="post" asp-action="Apply">
+    <div class="text-danger" asp-validation-summary="All"></div>
+    <div class="form-group my-2">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName"class="form-control" />
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName"class="form-control" />
+    </div>
+    <div class="form-group my-2">
+        <label asp-for="Age"></label>
+        <select asp-for="Age" class ="form-control">
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+        </select>
+    </div>
+    <fieldset>
+        <legend>Select One Course</legend>
+        <p>
+            <input id="mvc" type="radio" asp-for="SelectedCourse" value="Asp.Net Core Mvc" checked/>
+            <label>Asp.Net Core Mvc</label>
+        </p>
+        <p>
+            <input id="api" type="radio" asp-for="SelectedCourse" value="Asp.Net Core Web Api"/>
+            <label>Asp.Net Core Web Api</label>
+        </p>
+        <p>
+            <input id="csharp" type="radio" asp-for="SelectedCourse" value="CSharp"/>
+            <label>C#</label>
+        </p>
+        <p>
+            <input id="kotlin" type="radio" name="SelectedCourse" value="Android Kotlin"/>
+            <label>Android Kotlin</label>
+        </p>
+        <p>
+            <input id="github" type="radio" name="SelectedCourse" value="Github"/>
+            <label>Github</label>
+        </p>
+    </fieldset>
+    <button class="btn btn-primary" type="submit">Apply</button>
+    <a class="btn btn-warning" asp-controller="Home" asp-action="Index">Home</a>
+</form>
