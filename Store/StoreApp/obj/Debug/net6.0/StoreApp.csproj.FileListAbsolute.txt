@@ -63,3 +63,5 @@ D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\r
 D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\runtimes\win-x86\native\e_sqlite3.dll
 D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.CopyComplete
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebassets.runtime.json
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\libman.json

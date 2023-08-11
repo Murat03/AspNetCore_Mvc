@@ -1,16 +1,15 @@
-
-@{
-    Layout = null;
-}
 @model Product
 
-<div>
+<div class="mx-2">
     <h3>@Model.ProductName</h3>
     <p>@Model.Price</p>
-    <a href="/Product">Products</a>
+    <a class="btn btn-outline-primary" asp-controller="Product" asp-action="Index">
+        <i class="fa-solid fa-arrow-right"></i>
+        Products
+    </a>
 </div>
-@section Header{
-    <div>
-        Header for only Get
-    </div>
-}
+@* @section Header{
+<div>
+Header for only Get
+</div>
+} *@
