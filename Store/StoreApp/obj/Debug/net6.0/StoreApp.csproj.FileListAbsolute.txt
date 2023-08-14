@@ -65,3 +65,7 @@ D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\r
 D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\obj\Debug\net6.0\StoreApp.csproj.CopyComplete
 D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\StoreApp.staticwebassets.runtime.json
 D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\libman.json
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Entities.dll
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Entities.pdb
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Repositories.dll
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Repositories.pdb

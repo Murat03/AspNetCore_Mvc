@@ -1,0 +1,15 @@
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\Repositories\bin\Debug\net6.0\Repositories.deps.json
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\Repositories\bin\Debug\net6.0\Repositories.dll
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\Repositories\bin\Debug\net6.0\Repositories.pdb
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\Repositories\bin\Debug\net6.0\Entities.dll
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\Repositories\bin\Debug\net6.0\Entities.pdb
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\Repositories\obj\Debug\net6.0\Repositories.csproj.AssemblyReference.cache
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\Repositories\obj\Debug\net6.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfoInputs.cache
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfo.cs
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\Repositories\obj\Debug\net6.0\Repositories.csproj.CoreCompileInputs.cache
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\Repositories\obj\Debug\net6.0\Repositories.csproj.CopyComplete
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\Repositories\obj\Debug\net6.0\Repositories.dll
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\Repositories\obj\Debug\net6.0\refint\Repositories.dll
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\Repositories\obj\Debug\net6.0\Repositories.pdb
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\Repositories\obj\Debug\net6.0\ref\Repositories.dll

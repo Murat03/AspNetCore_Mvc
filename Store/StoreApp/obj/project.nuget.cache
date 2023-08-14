@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oVTrif6OwXtDvvmvWkHRJSpYOLpJ53vyRx1iF+lL4Pfg+caxLQinZeCT1o1I6HGRYawZOy7HcNNdUoP7dnNHXg==",
+  "dgSpecHash": "znxwxgpF/nMNHfE+PLtF6lDXX6Od74J8BSJM3KuIRyUF6qZMRgH6OEeI0CUE9tOVzyJ1DPZLD0ZAMMAcK9lTMg==",
   "success": true,
-  "projectFilePath": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\StoreApp\\StoreApp.csproj",
+  "projectFilePath": "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\StoreApp\\StoreApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\murat\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\murat\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.20\\microsoft.data.sqlite.core.6.0.20.nupkg.sha512",
