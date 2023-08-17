@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cvTNgbOeNKT0aoyvI+48i7+PYaM8BeTD3LPCGIpxDeiGGaYLBPSxWb49ijNeTwcSYssu2XN742YjmQbJnDuO5g==",
+  "dgSpecHash": "k4JMtFg6aO638eB2MzClLyVX5FMRXpZJG3sT0WY9ZpgEhN661+47eacqicOWunP7nXpReyM0R9xUlVbVXjIPag==",
   "success": true,
-  "projectFilePath": "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Entities\\Entities.csproj",
+  "projectFilePath": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Entities\\Entities.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

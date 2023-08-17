@@ -69,3 +69,5 @@ D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\E
 D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Entities.pdb
 D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Repositories.dll
 D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Repositories.pdb
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Services.dll
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Services.pdb

@@ -3,26 +3,27 @@ using Microsoft.EntityFrameworkCore;
 using Entities.Models;
 using Repositories;
 using Repositories.Contracts;
+using Services.Contracts;
 
 namespace StoreApp.Controllers
 {
     public class ProductController : Controller
     {
-        private readonly IRepositoryManager _manager;
+        private readonly IServiceManager _serviceManager;
 
-        public ProductController(IRepositoryManager manager)
+        public ProductController(IServiceManager service)
         {
-            _manager = manager;
+            _serviceManager = service;
         }
 
         public IActionResult Index()
         {
-            var model = _manager.Product.GetAllProducts(false);
+            var model = _serviceManager.ProductService.GetAllProducts(false);
             return View(model);
         }
-        public IActionResult Get(int id)
+        public IActionResult Get([FromRoute(Name = "id")] int id)
         {
-            var model = _manager.Product.GetOneProduct(id, false);
+            var model = _serviceManager.ProductService.GetOneProduct(id, false);
             return View(model);
         }
     }
