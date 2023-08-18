@@ -1,3 +1,4 @@
+using Entities.DataTransferObjects;
 using Entities.Models;
 using Repositories.Contracts;
 
@@ -13,5 +14,7 @@ namespace Repositories
 		public void DeleteProduct(Product product) => Remove(product);
 		public IQueryable<Product> GetAllProducts(bool trackChanges) => FindAll(trackChanges);
         public Product? GetOneProduct(int id, bool trackChanges) => FindByCondition(p => p.ProductId.Equals(id), trackChanges);
+
+		public void UpdateOneProduct(Product product) => Update(product);
 	}
 }

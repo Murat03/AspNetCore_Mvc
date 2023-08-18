@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "96JYo7zuVR9XcSSknt+PwKKKl1zu6PHLoU8yaQz0MIb3d4hm+z8zyVmDQh+lxAV1nUhmedfy7gg8aLyqYqNYtA==",
+  "dgSpecHash": "gThBxfkgEI7j3soKRngtIQmvrMBgXjFs/jAPaY7Adb3LnbIwNXzyqBCgv8+iGbskdJ/XX3vLZ3bciI3KIU2wyw==",
   "success": true,
   "projectFilePath": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\StoreApp\\StoreApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\murat\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\murat\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\murat\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\murat\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\murat\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.20\\microsoft.data.sqlite.core.6.0.20.nupkg.sha512",
     "C:\\Users\\murat\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.20\\microsoft.entityframeworkcore.6.0.20.nupkg.sha512",
     "C:\\Users\\murat\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.20\\microsoft.entityframeworkcore.abstractions.6.0.20.nupkg.sha512",

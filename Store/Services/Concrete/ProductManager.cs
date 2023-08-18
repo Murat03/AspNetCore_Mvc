@@ -1,4 +1,6 @@
-﻿using Entities.Models;
+﻿using AutoMapper;
+using Entities.DataTransferObjects;
+using Entities.Models;
 using Repositories.Contracts;
 using Services.Contracts;
 using System;
@@ -12,14 +14,16 @@ namespace Services.Concrete
 	public class ProductManager : IProductService
 	{
 		public IRepositoryManager _repositoryManager;
-
-		public ProductManager(IRepositoryManager repositoryManager)
+		private readonly IMapper _mapper;
+		public ProductManager(IRepositoryManager repositoryManager, IMapper mapper)
 		{
 			_repositoryManager = repositoryManager;
+			_mapper = mapper;
 		}
 
-		public void CreateProduct(Product product)
+		public void CreateProduct(ProductDtoForInsertion productDto)
 		{
+			Product product = _mapper.Map<Product>(productDto);
 			_repositoryManager.Product.CreateProduct(product);
 			_repositoryManager.Save();
 		}
@@ -46,12 +50,22 @@ namespace Services.Concrete
 			return product;
 		}
 
-		public void UpdateOneProduct(Product product)
+		public void UpdateOneProduct(ProductDtoForUpdate productDto)
 		{
-			var entity = _repositoryManager.Product.GetOneProduct(product.ProductId, true);
-			entity.ProductName = product.ProductName;
-			entity.Price = product.Price;
+			//var entity = _repositoryManager.Product.GetOneProduct(productDto.ProductId, true);
+			//entity.ProductName = productDto.ProductName;
+			//entity.Price = productDto.Price;
+			//entity.CategoryId = productDto.CategoryId;
+			var entity = _mapper.Map<Product>(productDto);
+			_repositoryManager.Product.UpdateOneProduct(entity);
 			_repositoryManager.Save();
+		}
+
+		public ProductDtoForUpdate GetOneProductForUpdate(int id, bool trackChanges)
+		{
+			var product = GetOneProduct(id, trackChanges);
+			var productDto = _mapper.Map<ProductDtoForUpdate>(product);
+			return productDto;
 		}
 	}
 }

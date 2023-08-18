@@ -1,3 +1,4 @@
+using Entities.DataTransferObjects;
 using Entities.Models;
 
 namespace Repositories.Contracts
@@ -8,5 +9,6 @@ namespace Repositories.Contracts
         Product? GetOneProduct(int id, bool trackChanges);
         void CreateProduct(Product product);
 		void DeleteProduct(Product product);
+		void UpdateOneProduct(Product product);
 	}
 }
