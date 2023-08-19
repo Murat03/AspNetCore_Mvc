@@ -23,6 +23,7 @@ namespace Repositories.Config
 					ProductId = 1,
 					CategoryId = 1,
 					ProductName = "Computer",
+					ImageUrl="/images/1.jpg",
 					Price = 17000
 				},
 				new Product()
@@ -30,6 +31,7 @@ namespace Repositories.Config
 					ProductId = 2,
 					CategoryId = 1,
 					ProductName = "SmartPhone",
+					ImageUrl = "/images/2.jpg",
 					Price = 7000
 				},
 				new Product()
@@ -37,6 +39,7 @@ namespace Repositories.Config
 					ProductId = 3,
 					CategoryId = 1,
 					ProductName = "Mouse",
+					ImageUrl = "/images/3.jpg",
 					Price = 500
 				},
 				new Product()
@@ -44,6 +47,7 @@ namespace Repositories.Config
 					ProductId = 4,
 					CategoryId = 2,
 					ProductName = "Utopia",
+					ImageUrl = "/images/4.jpg",
 					Price = 50
 				}
 				,
@@ -52,6 +56,7 @@ namespace Repositories.Config
 					ProductId = 5,
 					CategoryId = 2,
 					ProductName = "Sokrates",
+					ImageUrl = "/images/5.jpg",
 					Price = 30
 				}
 			);

@@ -1,13 +1,18 @@
 @model Product
 
-<div class="mx-2">
-    <h3>@Model.ProductName</h3>
-    <p>@Model.Price</p>
+<div class="row">
+    <div class="col-md-12">
+        <div class="text-center">
+            <h6 class="display-6">@Model.ProductName</h6>
+            <img style="max-width: 500px;max-height: 500px" class="img-fluid shadow rounded-3 my-3" src="@Model.ImageUrl"  alt="@Model.ProductName" />
+            <p class="lead text-danger"> @Model.Price.ToString("c")</p>
+        </div>
+    </div>
+</div>
     <a class="btn btn-outline-primary" asp-controller="Product" asp-action="Index">
         <i class="fa-solid fa-arrow-right"></i>
         Products
     </a>
-</div>
 @* @section Header{
 <div>
 Header for only Get

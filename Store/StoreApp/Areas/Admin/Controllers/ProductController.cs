@@ -26,21 +26,29 @@ namespace StoreApp.Areas.Admin.Controllers
 			ViewBag.Categories = GetCategoriesSelectList();
 			return View();
 		}
+		[HttpPost]
+		[ValidateAntiForgeryToken]
+		public async Task<IActionResult> Create([FromForm] ProductDtoForInsertion productDto, IFormFile file)
+		{
+			if (!ModelState.IsValid)
+			{
+				return View();
+			}
+			//File operation
+			string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images",file.FileName); // a/b/c
+
+			using (var stream = new FileStream(path,FileMode.Create))
+			{
+				await file.CopyToAsync(stream);
+			}
+			productDto.ImageUrl = String.Concat("/images/",file.FileName);
+			_manager.ProductService.CreateProduct(productDto);
+			return RedirectToAction("Index");
+		}
 		private SelectList GetCategoriesSelectList()
 		{
 			return new SelectList(_manager.CategoryService.GetAllCategories(false),
 				"CategoryId", "CategoryName", 1);
-		}
-		[HttpPost]
-		[ValidateAntiForgeryToken]
-		public IActionResult Create([FromForm] ProductDtoForInsertion productDto)
-		{
-			if(!ModelState.IsValid)
-			{
-				return View();
-			}
-			_manager.ProductService.CreateProduct(productDto);
-			return RedirectToAction("Index");
 		}
 		public IActionResult Update([FromRoute(Name ="id")] int id)
 		{
@@ -50,10 +58,18 @@ namespace StoreApp.Areas.Admin.Controllers
 		}
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public IActionResult Update([FromForm] ProductDtoForUpdate productDto)
+		public async Task<IActionResult> Update([FromForm] ProductDtoForUpdate productDto, IFormFile file)
 		{
 			if(ModelState.IsValid)
 			{
+				//File operation
+				string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", file.FileName); // a/b/c
+
+				using (var stream = new FileStream(path, FileMode.Create))
+				{
+					await file.CopyToAsync(stream);
+				}
+				productDto.ImageUrl = String.Concat("/images/", file.FileName);
 				_manager.ProductService.UpdateOneProduct(productDto);
 				return RedirectToAction("Index");
 			}
