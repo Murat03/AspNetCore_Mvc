@@ -16,7 +16,7 @@
 			</tr>
 		</thead>
 		<tbody>
-			@foreach(var item in Model.Cart?.Lines ?? Enumerable.Empty<CartLine>())
+			@foreach (var item in Model.Cart?.Lines ?? Enumerable.Empty<CartLine>())
 			{
 				<tr>
 					<td>@item.Product.ProductName</td>
@@ -25,8 +25,8 @@
 					<td>@((item.Product.Price * item.Quantity).ToString("c2"))</td>
 					<td>
 						<form method="post" asp-page-handler="Remove">
-							<input type="hidden" name="id" value="@item.Product.ProductId"/>
-							<input type="hidden" name="returnUrl" value="@Model.ReturnUrl"/>
+							<input type="hidden" name="id" value="@item.Product.ProductId" />
+							<input type="hidden" name="returnUrl" value="@Model.ReturnUrl" />
 							<button type="submit" class="btn btn-sm btn-danger">
 								<i class="fa fa-remove"></i>
 								Remove
@@ -43,4 +43,10 @@
 			</tr>
 		</tfoot>
 	</table>
+	<div class="text-center my-3">
+		<div class="btn-group">
+			<a class="btn btn-primary" href="@Model?.ReturnUrl">Continue Shopping</a>
+			<a class="btn btn-primary mx-2" asp-action="Checkout" asp-controller="Order">Checkout</a>
+		</div>
+	</div>
 </div>

@@ -2,24 +2,25 @@ using Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Services.Contracts;
+using StoreApp.Infrastructure.Extensions;
 
 namespace StoreApp.Pages
 {
     public class CartModel : PageModel
     {
         private readonly IServiceManager _manager;
-        private readonly Cart _cart;
-
-		public CartModel(IServiceManager manager, Cart cart)
+		public Cart Cart { get; set; } //IoC
+		public CartModel(IServiceManager manager, Cart cartService)
 		{
 			_manager = manager;
-			_cart = cart;
+            Cart = cartService;
 		}
-        public Cart Cart => _cart; //IoC
+        
 		public string ReturnUrl { get; set; } = "/";
         public void OnGet(string returnUrl)
         {
             ReturnUrl = returnUrl ?? "/"; //Empty check
+            //Cart = HttpContext.Session.GetJson<Cart>("cart") ?? new Cart();
         }
 
         public IActionResult OnPost(int productId, string returnUrl)
@@ -28,14 +29,16 @@ namespace StoreApp.Pages
 
             if(product is not null)
             {
-                Cart.AddItem(product,1);
+				Cart.AddItem(product, 1);
+				//HttpContext.Session.SetJson<Cart>("cart", Cart);
             }
-            return Page(); //return Url
+            return RedirectToPage(new {returnUrl = returnUrl}); //return Url
         }
         public IActionResult OnPostRemove(int id, string returnUrl)
         {
-            Cart.RemoveLine(Cart.Lines.First(cl => cl.Product.ProductId.Equals(id)).Product);
-            return Page();
+			Cart.RemoveLine(Cart.Lines.First(cl => cl.Product.ProductId.Equals(id)).Product);
+			//HttpContext.Session.SetJson<Cart>("cart", Cart);
+			return Page();
         }
     }
 }
