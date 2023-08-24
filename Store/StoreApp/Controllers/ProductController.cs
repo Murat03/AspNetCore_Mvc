@@ -4,6 +4,7 @@ using Entities.Models;
 using Repositories;
 using Repositories.Contracts;
 using Services.Contracts;
+using Entities.RequestParameters;
 
 namespace StoreApp.Controllers
 {
@@ -16,9 +17,9 @@ namespace StoreApp.Controllers
             _serviceManager = service;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(ProductRequestParameters p)
         {
-            var model = _serviceManager.ProductService.GetAllProducts(false);
+            var model = _serviceManager.ProductService.GetAllProductsWithDetails(p);
             return View(model);
         }
         public IActionResult Get([FromRoute(Name = "id")] int id)

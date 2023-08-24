@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\images\\6.jpg"
     },
     {
+      "Id": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\StoreApp\\wwwroot\\images\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\7.jpg"
+    },
+    {
       "Id": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\StoreApp\\wwwroot\\images\\stream_deck.jpg",
       "PackagePath": "staticwebassets\\images\\stream_deck.jpg"
     },

@@ -24,7 +24,8 @@ namespace Repositories.Config
 					CategoryId = 1,
 					ProductName = "Computer",
 					ImageUrl="/images/1.jpg",
-					Price = 17000
+					Price = 17000,
+					ShowCase = false
 				},
 				new Product()
 				{
@@ -32,7 +33,8 @@ namespace Repositories.Config
 					CategoryId = 1,
 					ProductName = "SmartPhone",
 					ImageUrl = "/images/2.jpg",
-					Price = 7000
+					Price = 7000,
+					ShowCase = false
 				},
 				new Product()
 				{
@@ -40,7 +42,8 @@ namespace Repositories.Config
 					CategoryId = 1,
 					ProductName = "Mouse",
 					ImageUrl = "/images/3.jpg",
-					Price = 500
+					Price = 500,
+					ShowCase = false
 				},
 				new Product()
 				{
@@ -48,7 +51,8 @@ namespace Repositories.Config
 					CategoryId = 2,
 					ProductName = "Utopia",
 					ImageUrl = "/images/4.jpg",
-					Price = 50
+					Price = 50,
+					ShowCase = false
 				}
 				,
 				new Product()
@@ -57,7 +61,26 @@ namespace Repositories.Config
 					CategoryId = 2,
 					ProductName = "Sokrates",
 					ImageUrl = "/images/5.jpg",
-					Price = 30
+					Price = 30,
+					ShowCase = false
+				},
+				new Product()
+				{
+					ProductId = 6,
+					CategoryId = 1,
+					ProductName = "Stream Deck",
+					ImageUrl = "/images/6.jpg",
+					Price = 15000,
+					ShowCase = true
+				},
+				new Product()
+				{
+					ProductId = 7,
+					CategoryId = 1,
+					ProductName = "Console",
+					ImageUrl = "/images/7.jpg",
+					Price = 15000,
+					ShowCase = true
 				}
 			);
 		}
