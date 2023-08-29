@@ -78,3 +78,6 @@ D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\M
 D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
 D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Presentation.dll
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Presentation.pdb
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\obj\Debug\net6.0\StoreApp.MvcApplicationPartsAssemblyInfo.cs

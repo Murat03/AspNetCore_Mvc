@@ -1400,11 +1400,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj",
+      "projectPath": "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj",
       "packagesPath": "C:\\Users\\murat\\.nuget\\packages\\",
-      "outputPath": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\obj\\",
+      "outputPath": "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
