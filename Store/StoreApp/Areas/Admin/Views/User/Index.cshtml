@@ -1,0 +1,39 @@
+﻿@model IEnumerable<IdentityUser>
+
+<div class="text-center my-5">
+	<div class="display-6 border-bottom">Users</div>
+</div>
+
+<table>
+	<thead>
+		<tr>
+			<th>Id</th>
+			<th>UserName</th>
+			<th>Roles</th>
+			<th>Operations</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (IdentityUser user in Model)
+		{
+			<tr>
+				<td>@user.Id</td>
+				<td>@user.UserName</td>
+				<td user-name="@user.UserName" user-role=""></td>
+				<td>
+					<div class="btn-group">
+						<a class="btn btn-sm btn-warning rounded-end-0" asp-action="Update" asp-route-id="@user.UserName">Edit</a>
+						<a class="btn btn-sm btn-info rounded-0" asp-action="ResetPassword" asp-route-id="@user.UserName">Reset Password</a>
+						<form method="post" asp-action="DeleteOneUser">
+							<input type="hidden" name="UserName" value="@user.UserName"/>
+							<button type="submit" class="btn btn-danger rounded-start-0">
+								<i class="fa fa-solid fa-trash"></i>
+								Delete
+							</button>
+						</form>
+					</div>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

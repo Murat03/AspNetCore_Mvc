@@ -73,3 +73,8 @@ D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\S
 D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Services.pdb
 D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\AutoMapper.dll
 D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Yazilim\C#\AspNetCoreMvcCourse\Projects\Mvc\Store\StoreApp\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
