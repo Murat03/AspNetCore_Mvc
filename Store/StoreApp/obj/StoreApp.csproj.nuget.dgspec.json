@@ -70,14 +70,14 @@
         }
       }
     },
-    "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Presentation\\Presentation.csproj": {
+    "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Presentation\\Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Presentation\\Presentation.csproj",
+        "projectUniqueName": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Presentation\\Presentation.csproj",
         "projectName": "Presentation",
-        "projectPath": "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Presentation\\Presentation.csproj",
+        "projectPath": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Presentation\\Presentation.csproj",
         "packagesPath": "C:\\Users\\murat\\.nuget\\packages\\",
-        "outputPath": "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Presentation\\obj\\",
+        "outputPath": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Presentation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -140,14 +140,14 @@
         }
       }
     },
-    "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj": {
+    "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj",
+        "projectPath": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\murat\\.nuget\\packages\\",
-        "outputPath": "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\obj\\",
+        "outputPath": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -186,6 +186,10 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.20, )"
             },
@@ -246,8 +250,8 @@
               "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Entities\\Entities.csproj": {
                 "projectPath": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Entities\\Entities.csproj"
               },
-              "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj": {
-                "projectPath": "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj"
+              "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj": {
+                "projectPath": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -320,11 +324,11 @@
               "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Entities\\Entities.csproj": {
                 "projectPath": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Entities\\Entities.csproj"
               },
-              "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Presentation\\Presentation.csproj": {
-                "projectPath": "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Presentation\\Presentation.csproj"
+              "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Presentation\\Presentation.csproj": {
+                "projectPath": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Presentation\\Presentation.csproj"
               },
-              "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj": {
-                "projectPath": "d:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj"
+              "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj": {
+                "projectPath": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Repositories\\Repositories.csproj"
               },
               "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Services\\Services.csproj": {
                 "projectPath": "D:\\Yazilim\\C#\\AspNetCoreMvcCourse\\Projects\\Mvc\\Store\\Services\\Services.csproj"
